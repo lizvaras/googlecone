@@ -1,0 +1,54 @@
+body{
+    /*color de fondo */
+    /*background-color: rgba(12, 215, 230, 0.55);*/
+    /*background: linear-gradient(#d30707, #f2bfa1);*/
+    background:  url(https://th.bing.com/th/id/OIP.XXi3aW1I_9SWXaCedzP1QAHaEo?rs=1&pid=ImgDetMain);
+    font-family: "Concert One", sans-serif;
+
+}
+
+  
+h1, h3{
+    color: blueviolet;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+
+#perro {
+    height: 800px;
+    width: 1500px;
+}
+
+.pome{
+    width: 80px;
+}
+/* editar div */
+.menu{
+    background-color: bisque;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a{
+    color: #c5236f;
+    text-decoration: wavy;
+    /* ANCLAS COMO BOTONES */
+    padding: 5px;
+
+}
+
+a:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+.container{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#faro{
+    height: 90px;
+}
